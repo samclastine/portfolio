@@ -1,0 +1,110 @@
+.aboutMe,
+.getToKnow {
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+}
+.getToKnow {
+  font-weight: 600;
+  background: linear-gradient(90deg, #4fc3f7, #f5f5f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 101px;
+}
+.aboutHeader,
+.aboutIntro,
+.getToKnowMeWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getToKnowMeWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-34xl);
+  font-size: var(--font-size-sm);
+}
+.aboutHeader,
+.aboutIntro {
+  flex-direction: column;
+}
+.aboutIntro {
+  width: 815px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blankLine,
+.blankLine1,
+.hiThereIm,
+.iBringA,
+.letsWorkTogether {
+  margin: 0;
+}
+.hiThereImContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 25px;
+  font-weight: 500;
+  color: var(--color-gainsboro-100);
+  text-align: center;
+}
+.aboutContactChild {
+  height: 55px;
+  width: 216px;
+}
+.aboutContact {
+  width: 784px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aboutContent {
+  width: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.aboutContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-21xl) var(--padding-106xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .aboutMe {
+    font-size: var(--font-size-17xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .aboutContentWrapper {
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutMe {
+    font-size: var(--font-size-8xl);
+  }
+  .aboutContent {
+    gap: var(--gap-xl);
+  }
+}

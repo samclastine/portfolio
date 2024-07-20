@@ -1,0 +1,215 @@
+.lets,
+.workTogether {
+  margin: 0;
+}
+.letsWorkTogetherContainer {
+  margin: 0;
+  width: 693px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.07em;
+  line-height: 106%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 693px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 76.2px;
+  width: 310px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-300);
+  border: 1.6px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  display: none;
+}
+.skillIconsgmailLight {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.emailIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.georgygmailcom {
+  flex: 1;
+  position: relative;
+  line-height: 40px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.footerConnectInner,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-300);
+  border: 1.6px solid var(--color-darkslategray);
+  flex-direction: row;
+  padding: var(--padding-mid) 0 var(--padding-mini) var(--padding-5xl);
+  gap: var(--gap-mini);
+}
+.footerConnectInner {
+  width: 310px;
+  flex-direction: column;
+  padding: var(--padding-9xl-9) 0 0;
+  box-sizing: border-box;
+  min-width: 310px;
+  text-align: justify;
+  font-size: var(--font-size-5xl-9);
+  color: var(--color-darkslategray);
+}
+.footerConnect {
+  width: 1269px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.footerCollaboration,
+.footerDivider {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.footerCollaboration {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.footerDivider {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslategray);
+}
+.footerContactContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.allRightsReserved {
+  margin: 0;
+}
+.allRightsReservedContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 154.02%;
+  text-transform: lowercase;
+}
+.copyright {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.groupIcon,
+.socialIconsChild,
+.socialIconsChild1,
+.socialIconsInner,
+.socialIconsItem {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.copyrightSocialContainer,
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.copyrightSocialContainer {
+  width: 1214px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.copyrightSocial,
+.footerContact {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.copyrightSocial {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.footerContact {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  text-align: left;
+  font-size: var(--font-size-44xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .footerConnectInner,
+  .letsWorkTogetherContainer {
+    flex: 1;
+  }
+  .footerConnect {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .letsWorkTogetherContainer {
+    font-size: var(--font-size-31xl);
+    line-height: 53px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footerContactContainer {
+    gap: var(--gap-xl);
+  }
+  .copyrightSocialContainer {
+    flex-wrap: wrap;
+  }
+  .footerContact {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .letsWorkTogetherContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 40px;
+  }
+  .georgygmailcom {
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+  }
+}

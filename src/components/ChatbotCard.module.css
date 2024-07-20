@@ -1,0 +1,212 @@
+.chatbotImage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(121.9deg, #1c1c1c, #050505);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  mix-blend-mode: linear-dodge;
+}
+.chatbotIconsInner,
+.frameChild {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-ghostwhite);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.chatbotIconsInner {
+  height: 44px;
+  width: 44px;
+  position: relative;
+}
+.arcticonspoeAiChat {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+  left: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.chatbotIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.aiChatbots,
+.chatbotIcons,
+.fromDesignTo {
+  position: relative;
+  z-index: 1;
+}
+.aiChatbots {
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 114px;
+}
+.fromDesignTo {
+  align-self: stretch;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  color: var(--color-gainsboro-100);
+}
+.chatbotDetails,
+.chatbotIconsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chatbotIconsParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-mid-5);
+}
+.chatbotDetails {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  min-width: 204px;
+}
+.machineLearningCard {
+  height: 218px;
+  width: 234px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  z-index: 1;
+}
+.chatbotContent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-6xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xl);
+  min-width: 403px;
+  max-width: 100%;
+}
+.machineLearningImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(121.9deg, rgba(28, 28, 28, 0.5), #050505);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  mix-blend-mode: linear-dodge;
+}
+.carbonmachineLearningIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.machineLearningIcon {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-ghostwhite);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  z-index: 1;
+}
+.machineLearning {
+  width: 237px;
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.fromConceptTo {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.fromConceptToContainer {
+  align-self: stretch;
+  height: 121px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  color: var(--color-gainsboro-100);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.machineLearningContent {
+  width: 289px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-xl) var(--padding-6xl)
+    var(--padding-7xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-lg-5);
+  min-width: 289px;
+  font-size: var(--font-size-mini);
+}
+.chatbotCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .chatbotIconsParent {
+    align-self: stretch;
+    width: auto;
+  }
+  .machineLearningContent {
+    flex: 1;
+  }
+  .chatbotCard {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .machineLearningCard {
+    flex: 1;
+  }
+  .chatbotContent {
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 100%;
+  }
+}
