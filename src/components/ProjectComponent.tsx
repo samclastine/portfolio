@@ -54,6 +54,7 @@ const Projects: FunctionComponent = () => {
                   "&:hover": { background: "#484e53" },
                   width: 193,
                   height: 55,
+                  
                 }}
               >
                 Machine learning
@@ -74,7 +75,41 @@ const Projects: FunctionComponent = () => {
                   height: 55,
                 }}
               >
-                AI/LLMs
+                LLM
+              </Button>
+              <Button
+                className={styles.skillItems3}
+                disableElevation
+                variant="outlined"
+                sx={{
+                  textTransform: "none",
+                  color: "#a9a9a9",
+                  fontSize: "16",
+                  borderColor: "#484e53",
+                  borderRadius: "50px",
+                  "&:hover": { borderColor: "#484e53" },
+                  width: 129,
+                  height: 55,
+                }}
+              >
+                Time Series Forcasting
+              </Button>
+              <Button
+                className={styles.skillItems3}
+                disableElevation
+                variant="outlined"
+                sx={{
+                  textTransform: "none",
+                  color: "#a9a9a9",
+                  fontSize: "16",
+                  borderColor: "#484e53",
+                  borderRadius: "50px",
+                  "&:hover": { borderColor: "#484e53" },
+                  width: 129,
+                  height: 55,
+                }}
+              >
+                Neural Network
               </Button>
             </div>
           </div>

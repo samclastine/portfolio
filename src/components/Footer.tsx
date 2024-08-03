@@ -88,36 +88,23 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             </div>
           </div>
           <div className={styles.socialIcons}>
+          <a href="https://www.linkedin.com/in/sam-clastine/">
             <img
               className={styles.socialIconsChild}
               loading="lazy"
               alt=""
               src="/group-483256.svg"
             />
-            <img
-              className={styles.socialIconsItem}
-              loading="lazy"
-              alt=""
-              src="/group-483252.svg"
-            />
-            <img
-              className={styles.socialIconsInner}
-              loading="lazy"
-              alt=""
-              src="/group-483258.svg"
-            />
-            <img
-              className={styles.groupIcon}
-              loading="lazy"
-              alt=""
-              src="/group-483257.svg"
-            />
+            </a>
+          <a href="https://x.com/SamClastine">
             <img
               className={styles.socialIconsChild1}
               loading="lazy"
               alt=""
               src="/group-483254.svg"
+              
             />
+            </a>
           </div>
         </div>
       </div>

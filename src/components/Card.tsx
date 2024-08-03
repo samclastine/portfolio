@@ -23,12 +23,14 @@ const Card: FunctionComponent<CardType> = ({
           <div className={styles.description}>{description}</div>
         </div>
         <div className={styles.vuesaxlinearsend}>
+          <a href="https://www.researchgate.net/publication/377746822_Machine_Reading_Comprehension_using_SQUAD">
           <img
             className={styles.vuesaxlinearsendIcon}
             loading="lazy"
             alt=""
             src="/vuesaxlinearsend.svg"
           />
+          </a>
         </div>
       </div>
     </div>

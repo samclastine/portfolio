@@ -24,6 +24,10 @@
   padding: 0 var(--padding-34xl);
   font-size: var(--font-size-sm);
 }
+.aboutHeader{
+  justify-content: center;
+  align-items: center;
+}
 .aboutHeader,
 .aboutIntro {
   flex-direction: column;

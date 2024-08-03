@@ -45,15 +45,18 @@
 .skillItems {
   height: 55px;
   width: 193px;
+  margin: 10px;
 }
 .skillItems1 {
   height: 55px;
   width: 141px;
+  margin: 10px;
 }
 .skillItems2,
 .skillItems3 {
   height: 55px;
   width: 129px;
+  margin: 10px;
 }
 .specialization {
   height: 56px;
@@ -157,5 +160,51 @@
 @media screen and (max-width: 450px) {
   .projects {
     font-size: var(--font-size-8xl);
+  }
+}
+
+.skills {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-36xl);
+  
+}
+
+@media (max-width: 1200px) {
+  .skills {
+    gap: var(--gap-24xl); /* Adjust gap for large screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .skills {
+    gap: var(--gap-18xl); /* Adjust gap for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    flex-direction: column; /* Change to column direction for smaller screens */
+    align-items: center;
+    gap: var(--gap-12xl); /* Adjust gap for small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .skills {
+    gap: var(--gap-6xl); /* Adjust gap for extra small screens */
+  }
+}
+
+.skills > * {
+  margin-bottom: var(--gap-6xl); /* Add gap between each component */
+}
+
+@media (min-width: 769px) {
+  .skills > * {
+    margin-bottom: 0; /* Remove gap between components for larger screens */
   }
 }
