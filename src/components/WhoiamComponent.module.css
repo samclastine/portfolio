@@ -1,0 +1,167 @@
+/* WhoiamComponent.module.css */
+
+.heroContentWrapper {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .heroContent {
+    width: 793px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: var(--padding-25xl) var(--padding-xl) var(--padding-118xl) var(--padding-19xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-5xs);
+  }
+  
+  .heroImageIcon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* border-radius: var(--br-481xl); */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .heroContentInner {
+    width: 447px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  .frameParent {
+    width: 447px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  .profilePictureWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  }
+  
+  .profilePictureIcon {
+    height: 197px;
+    width: 202px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 2;
+  }
+  
+  .georgyGeorgy {
+    height: 95px;
+    letter-spacing: -0.06em;
+    font-weight: 1000 !important;
+    /* white-space: pre-wrap; */
+    z-index: 4;
+    margin: 0;
+    position: relative;
+    font-size: 40px;
+    font-family: inherit;
+    /* display: inline-block; */
+    color: white;
+
+  }
+  
+  .dataSorcererWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    font-size: var(--font-size-7xl);
+  }
+  .dataSorcererEmoji{
+    height: 39px;
+    font-weight: 600;
+    /* z-index: 4; */
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-left: 2px;
+  }
+  
+  ._dataSorcerer {
+    height: 39px;
+    font-weight: 600;
+    background: linear-gradient(90.54deg, #4fc3f7, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 4;
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    display: inline-block;
+  }
+  
+  .asAPassionateDataScientistWrapper {
+    width: 793px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-13xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-lgi);
+    color: var(--color-gainsboro-100);
+  }
+  
+  .asAPassionate {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  
+  .heroContact {
+    width: 793px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  .heroContactChild {
+    height: 55px;
+    width: 187px;
+    z-index: 2;
+  }
+  

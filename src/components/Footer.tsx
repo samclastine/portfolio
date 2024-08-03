@@ -71,7 +71,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
                   },
                 }}
               >
-                <MenuItem value={1}>Georgy@gmail.com</MenuItem>
+                <MenuItem value={1}>samclastine.jesumuthu@gmail.com</MenuItem>
               </TextField>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           <div className={styles.copyright}>
             <div className={styles.allRightsReservedContainer}>
               <p className={styles.allRightsReserved}>
-                © 2023 All rights reserved.
+                © 2024 All rights reserved.
               </p>
             </div>
           </div>

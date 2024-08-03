@@ -70,6 +70,7 @@
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
+  
 }
 .servicesContentWrapper {
   justify-content: center;
@@ -118,6 +119,7 @@
   padding: 0 var(--padding-xl) 124.7px;
   box-sizing: border-box;
   max-width: 100%;
+  
 }
 .darkThemePortfolio {
   width: 100%;
@@ -126,11 +128,11 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   padding: 0 0 var(--padding-26xl);
   box-sizing: border-box;
-  gap: var(--gap-76xl);
+  /* gap: var(--gap-76xl); */
   line-height: normal;
   letter-spacing: normal;
 }

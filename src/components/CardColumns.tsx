@@ -5,6 +5,7 @@ export type CardColumnsType = {
   className?: string;
   dataAnalyticsVisualizatio?: string;
   fromDataInceptionToAction?: string;
+  imageSrc?: string;  // Optional image source
 
   /** Style props */
   propWidth?: CSSProperties["width"];
@@ -16,6 +17,7 @@ const CardColumns: FunctionComponent<CardColumnsType> = ({
   className = "",
   dataAnalyticsVisualizatio,
   fromDataInceptionToAction,
+  imageSrc,
   propWidth,
   propFlex,
   propMinWidth,
@@ -33,7 +35,16 @@ const CardColumns: FunctionComponent<CardColumnsType> = ({
       className={[styles.cardColumns, className].join(" ")}
       style={cardColumnsStyle}
     >
-      <div className={styles.cardImages} />
+      {imageSrc && (
+        <div className={styles.cardImages}>
+          <img
+            className={styles.cardImage}
+            loading="lazy"
+            alt=""
+            src={imageSrc}
+          />
+        </div>
+      )}
       <div className={styles.cardContentContainers}>
         <img
           className={styles.cardContentIcon}

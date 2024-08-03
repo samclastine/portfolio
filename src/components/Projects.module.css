@@ -8,6 +8,7 @@
   font-size: inherit;
   font-weight: 800;
   font-family: inherit;
+ 
 }
 .someOfMy {
   font-weight: 600;
@@ -88,6 +89,28 @@
   font-size: var(--font-size-26xl);
   color: var(--color-white);
   font-family: var(--font-inter);
+
+}
+.projectCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap-21xl);
+  padding: var(--padding-xl);
+  overflow-x: auto;
+  position: relative;  /* Ensure relative positioning */
+  z-index: 1;  /* Ensure the cards have lower z-index */
+
+}
+.projectsContact {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--margin-xl);
+  position: relative;  /* Ensure relative positioning */
+  z-index: 2;  /* Ensure the cards have lower z-index */
+}
+.projectsContactChild {
+  width: 210px;
+  height: 56px;
 }
 @media screen and (max-width: 1200px) {
   .skills {
@@ -98,10 +121,25 @@
     padding-right: var(--padding-8xl);
     box-sizing: border-box;
   }
+  .projectCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 1050px) {
   .projects {
     font-size: var(--font-size-17xl);
+  }
+  .skills {
+    flex-wrap: wrap;
+  }
+  .projectsHeader {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .projectCards {
+    grid-template-columns: repeat(1, 0fr);
+    justify-content: center;
   }
 }
 @media screen and (max-width: 750px) {
@@ -110,6 +148,10 @@
   }
   .projectsHeader1 {
     gap: var(--gap-xl);
+  }
+  .projectCards {
+    grid-template-columns: repeat(1, 0fr);
+    justify-content: center;
   }
 }
 @media screen and (max-width: 450px) {

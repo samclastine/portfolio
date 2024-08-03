@@ -8,7 +8,7 @@ import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import styles from "./FrameComponent2.module.css";
 
-export type FrameComponent2Type = {
+export type navbarType = {
   className?: string;
   frame70?: string;
   group?: string;
@@ -21,11 +21,10 @@ export type FrameComponent2Type = {
   onGroupIconClick?: () => void;
 };
 
-const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
+const NavbarComponent: FunctionComponent<navbarType> = ({
   className = "",
   frame70,
   group,
-  heroImage,
   rectangleDivBackgroundColor,
   onGroupIconClick,
 }) => {
@@ -85,56 +84,8 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           />
         </div>
       </header>
-      <div className={styles.heroContentWrapper}>
-        <div className={styles.heroContent}>
-          <img className={styles.heroImageIcon} alt="" src={heroImage} />
-          <div className={styles.heroContentInner}>
-            <div className={styles.frameParent}>
-              <div className={styles.profilePictureWrapper}>
-                <img
-                  className={styles.profilePictureIcon}
-                  loading="lazy"
-                  alt=""
-                  src="/Ellipse 3.png"
-                />
-              </div>
-              <h1 className={styles.georgyGeorgy}>{`Sam Clastine`}</h1>
-              <div className={styles.dataSorcererWrapper}>
-                <h2 className={styles.dataSorcerer}>Data Sorcerer 🧙‍♂️</h2>
-              </div>
-            </div>
-          </div>
-          <div className={styles.asAPassionateDataScientistWrapper}>
-            <h3 className={styles.asAPassionate}>
-              As a passionate data scientist, with expertise in machine
-              learning, AI, and data analytics, I thrive on the challenges of
-              exploring complex data landscapes and uncovering meaningful
-              patterns that drive innovation
-            </h3>
-          </div>
-          <div className={styles.heroContact}>
-            <Button
-              className={styles.heroContactChild}
-              disableElevation
-              variant="outlined"
-              sx={{
-                textTransform: "none",
-                color: "#fff",
-                fontSize: "15",
-                borderColor: "#4fc3f7",
-                borderRadius: "75px",
-                "&:hover": { borderColor: "#4fc3f7" },
-                width: 187,
-                height: 55,
-              }}
-            >
-              Contact Me
-            </Button>
-          </div>
-        </div>
-      </div>
     </section>
   );
 };
 
-export default FrameComponent2;
+export default NavbarComponent;
