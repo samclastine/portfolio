@@ -1,0 +1,30 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- profile2.webp you can remove | Photo <a href="https://unsplash.com/es/@charlesdeluvio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">charlesdeluvio</a> en <a href="https://unsplash.com/es/fotos/hombre-con-gorro-negro-kVg2DQTAK7c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+   -->
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Personal Card Portfolio Astro" description="Meta description. Here goes your page description. Provide a clear and concise summary of the content.">
+	<Card
+	  name="Sam Clastine"
+	  position="AI Enginner | Full Stack Developer"
+	  aboutMe={`I’m an AI engineer with passion for building complete, innovative solutions—from data scraping to deployment.\n\n With extensive experience in agentic AI and end-to-end software development, I specialize in fine-tuning large language models (LLMs), Building Agentic AI and engineering machine learning systems that solve real-world problems. \n\n Whether it’s designing scalable full-stack architectures or integrating advanced AI capabilities into dynamic applications, I thrive on transforming complex challenges into impactful, high-performance products.`}
+	  linkedin="https://www.linkedin.com/in/sam-clastine/"
+	  github="https://github.com/samclastine"
+	  cvLink="/files/Resume.pdf"
+	  profileImage="/images/1711913572340.jpg"
+	/>
+</BaseLayout>
+
+<!--
+	"Hi there!, I'm Brian. I hope this small template helps you gain visibility while you build great projects. Thank you for using it. I wish you success in everything you set out to do; you will surely achieve great things.
+
+	Here is my GitHub {https://github.com/alcarazbrian}. You can help me by following me, giving a Star to the template, and sharing it so others can see and use it.
+
+	Have a great day!"
+ -->
